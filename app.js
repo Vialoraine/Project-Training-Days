@@ -26,14 +26,14 @@ const getTrainingDays = (event) => {
   return days;
 };
 
+  const name = "Nala";
+
 // The scope of `name` is too tight
 const logEvent = (name, event) => {
-  const name = "Nala";
   console.log(`${name}'s event is: ${event}`);
 };
 
 const logTime = (name, days) => {
-  const name = "Nala";
   console.log(`${name}'s time to train is: ${days} days`);
 };
 
